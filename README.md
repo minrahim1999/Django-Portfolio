@@ -2,7 +2,7 @@
 
 Simple Django portfolio project
 
-Install the python pakages
+Install the python packages
 
 ```bash
 pip install python-dotenv django djangorestframework
@@ -16,12 +16,18 @@ pip install -r requirements.txt
 
 Create your .env file in root folder '/'
 
+---
+
+> **root**
+>
+> > **backend** <br/> **public** <br/> **.env**
+
+---
+
 Inside .env file create:
 
 ---
 
-**DEBUG**=False
-**SECRET_KEY**=Generate your secret key
-**HOST**=[list host you want]
+> **DEBUG**=False _#Change to 'True' in production_<br/> **SECRET_KEY**=Generate your secret key<br/> **HOST**=[list host you want]
 
 ---
